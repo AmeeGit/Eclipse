@@ -1,0 +1,52 @@
+Manual Testing Question Answers
+1. What do you understand by software testing?
+Software testing is a validation process which confirms that a system works as per the business requirements. It qualifies a system on various aspects such as usability, accuracy, completeness, efficiency, etc. ANSI/IEEE 1059 is the global standard that defines the basic principles of testing.
+2. When should you stop the testing process?
+The testing activity ends when the testing team completes the following milestones.
+Test case execution
+The successful completion of a full test cycle after the final bug fix marks the end of the testing phase.
+Testing deadline
+The end date of the validation stage also declares the closure of the validation if no critical or high-priority defects remain in the system.
+Code Coverage(CC) ratio
+It is the amount of code concealed via automated tests. If the team achieves the intended level of code coverage (CC) ratio, then it can choose to end the validation.
+Mean Time Between Failure (MTBF) rate
+Mean time between failure (MTBF) refers to the average amount of time that a device or product functions before failing. This unit of measurement includes only operational time between failures and does not include repair times, assuming the item is repaired and begins functioning again. MTBF figures are often used to project how likely a single unit is to fail within a certain period of time
+
+3. What is static testing? When does it start and what does it cover?
+Static testing is a white-box testing technique that directs developers to verify their code with the help of a checklist to find errors in it. Developers can start the static testing without actually finalizing the application or program. Static testing is more cost-effective than dynamic testing as it more areas than dynamic testing in a shorter time.
+4. Define Black-box testing.
+It is a standard software testing approach that requires testers to assess the functionality of the software as per the business requirements. The software is treated as a black box and validated as per the end user’s point of view.
+5. What is a test plan and what does it include?
+A test plan stores all possible testing activities to ensure a quality product. It gathers data from the product description, requirement, and use case documents.
+The test plan document includes the following:
+•	Testing objectives
+•	Test scope
+•	Testing the frame
+•	Environment
+•	Reason for testing
+•	Criteria for entrance and exit
+•	Deliverables
+•	Risk factors
+6. What are unit testing and integration testing?
+Unit testing has many names such as module testing or component testing.
+Many times, it is the developers who test individual units or modules to check if they are working correctly.
+Whereas, integration testing validates how well two or more units of software interact with each other.
+There are three ways to validate integration:
+•	Big Bang approach
+•	Top-down approach
+•	Bottom-up approach
+7. What is the difference between a test driver and a test stub?
+The test driver is a section of code that calls a software component under test. It is useful in testing that follows the bottom-up approach.
+The test stub is a dummy program that integrates with an application to complete its functionality. It is relevant for testing that uses the top-down approach.
+8. Explain the difference between alpha testing and beta testing.
+•	Alpha Testing – It is a type of software testing performed to identify bugs before releasing the product to real users or to the public. Alpha Testing is a type of user acceptance testing.
+•	Beta Testing – It is performed by real users of the software application in a real environment. Beta Testing is also a type of user acceptance testing.
+9. What are the different levels of manual testing?
+Four levels of manual testing are:
+•	Unit testing – It is a way of testing the smallest piece of code referred to as a unit that can be logically isolated in a system. It is mainly focused on the functional correctness of the standalone module.
+•	Integration Testing – It is a level of software testing where individual units are combined and tested to verify if they are working as they intend to when integrated. The main aim here is to test the interface between the modules.
+•	System Testing – In system testing all the components of the software are tested as a whole in order to ensure that the overall product meets the requirements specified. There are dozens of types of system testing, including usability testing, regression testing, and functional testing.
+User Acceptance Testing – The final level, acceptance testing, or UAT (user acceptance testing), determines whether or not the software is ready to be released.
+10. What is a testbed in manual testing?
+The testbed is an environment configured for testing. It is an environment used for testing an application, including the hardware as well as any software needed to run the program to be tested. It consists of hardware, software, network configuration, an application under test, other related software.
+
